@@ -52,3 +52,20 @@ ERROR in ./src/App.js 26:0-52
 Module not found: Error: Can't resolve './features/Progress/Progress' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
 
 webpack compiled with 4 errors
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './features/DrawingCanvas/DrawingCanvas' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
+ERROR in ./src/App.js 23:0-67
+Module not found: Error: Can't resolve './features/DrawingCanvas/DrawingCanvas' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
+
+ERROR in ./src/App.js 24:0-61
+Module not found: Error: Can't resolve './features/AIAssistant/AIAssistant' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
+
+ERROR in ./src/App.js 25:0-49
+Module not found: Error: Can't resolve './features/Lessons/Lessons' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
+
+ERROR in ./src/App.js 26:0-52
+Module not found: Error: Can't resolve './features/Progress/Progress' in '/home/kavia/workspace/code-generation/artmentor-27297-fa07f1e1/artmentor_webapp/src'
+
+webpack compiled with 4 errors

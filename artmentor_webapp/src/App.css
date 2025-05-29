@@ -4,7 +4,82 @@
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+  /* ArtMentor theme overrides */
+  --amentor-accent: #FF6F61;
+  --amentor-ombre-gradient: linear-gradient(90deg, #232526 0%, #414345 100%);
 }
+
+.ammentor-root {
+  background: var(--amentor-ombre-gradient), var(--kavia-dark);
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* ArtMentor Main Layout Grid */
+.ammentor-main-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.ammentor-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 65vh;
+  padding-top: 80px;
+  padding-bottom: 36px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 32px;
+}
+
+.ammentor-sidebar {
+  width: 220px;
+  min-width: 180px;
+  background: transparent;
+  border-right: 1px solid var(--border-color);
+  padding: 16px 8px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ammentor-canvas-area {
+  flex: 2 1 0%;
+  min-width: 360px;
+  max-width: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 8px 0;
+}
+
+.ammentor-right-panel {
+  width: 250px;
+  min-width: 180px;
+  background: transparent;
+  border-left: 1px solid var(--border-color);
+  padding: 16px 8px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ammentor-progress-bar {
+  width: 100vw;
+  max-width: 100%;
+  background: transparent;
+  border-top: 1px solid var(--border-color);
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Existing styles preserved below (navbar, buttons, hero etc) */
 
 body {
   margin: 0;
